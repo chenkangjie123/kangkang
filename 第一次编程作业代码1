@@ -110,10 +110,10 @@ def 使用(s):
     if s[0] == '如果':
         if s[2] == '大于':
             if a[1] > s[3]:
-
+                s[6] = s[6].strip('“').strip('”')
                 print(s[6])
             else:
-
+                s[9] = s[9].strip('“').strip('”')
                 print(s[9])
 if __name__ == '__main__':
     a = ['',0,0,'']
